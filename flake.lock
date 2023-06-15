@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "happy-hacking-gnu-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1682425107,
+        "narHash": "sha256-bCV1W8/6ths8igZg9nxFZuYDGuKMSGxJmg6c1PJxuGY=",
+        "ref": "refs/heads/master",
+        "rev": "0045faf17c8e3fd51f114124ed7eef51d3c97bb0",
+        "revCount": 33,
+        "submodules": true,
+        "type": "git",
+        "url": "https://gitlab.com/dom/happy-hacking-gnu.git?%3frev=85dfbba4cfc11a34f2dd8e984e9d46112f04a7e1"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "https://gitlab.com/dom/happy-hacking-gnu.git?%3frev=85dfbba4cfc11a34f2dd8e984e9d46112f04a7e1"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1686592866,
+        "narHash": "sha256-riGg89eWhXJcPNrQGcSwTEEm7CGxWC06oSX44hajeMw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0eeebd64de89e4163f4d3cf34ffe925a5cf67a05",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "happy-hacking-gnu-src": "happy-hacking-gnu-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
